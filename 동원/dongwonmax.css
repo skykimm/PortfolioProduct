@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+@media(max-width: 1920px){
+	#wrappercontainer{
+		width: 1920px;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 960px){
+	#wrappercontainer{
+		width: 100%;
+	}
+	#header_nav{
+		display: none;
+	}
+	#header_button{
+		float: right;
+	}
+	.madalcontent2{
+		height: 700px;
+	}
+	.modalul > ul >li{
+		width: 33.3%;
+		height: 220px;
+	}
+	.modalul > ul >.none{
+		display: none;
+	}
+	#video{
+		width: 100%;
+		height: 800px;
+	}
+	#videot{
+		width: 100%;
+	}
+	.video_title{
+		width: 80%;
+		height: 180px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.video_title h1{
+		font-size: 3em;
+	}
+
+	#wrapper{
+		width: 60%;
+		height:60%;
+		top: 60%;
+	}
+	#forpeople{
+		width: 95%;
+		height: 100%;
+	}
+	.twopage p{
+		font-size: 1em;
+	}
+	#withyou{
+		width: 100%;
+		height: 100%;
+	}
+	.withyoubox{
+		width: 95%;
+		height: 50%;
+		margin: 0 auto;
+	}
+	.withyou_article{
+		width: 100%;
+		height: 100%;
+	}
+	.withyou_article img{
+		width: 100%;
+		height: 100%;
+	}
+	.withyouvrog p{
+		font-size: 1.2em;
+	}
+	#newsroom{
+		width: 95%;
+		height: 1300px;
+	}
+	.newsroombox{
+		width: 100%;
+		margin-left: 10px;
+	}
+	.newsroombox2{
+		width: 100%;
+		display: block;
+	}
+	#Anniversary{
+		width: 95%;
+		height: 100%;
+	}
+	footer{
+		clear: both;
+		width: 100%;
+		height: 450px;
+	}
+	.footerbox{
+		width: 100%;
+		height: 300px;
+		padding-left: 20px;
+		text-align: left;
+		border: none;
+		font-size: 0.8em;
+	}
+	.footerleft{
+		width: 100%;
+		height: 50px;
+		display: inline-block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footercenter{
+		width: 100%;
+		height: 150px;
+		display: inline-block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footercenter a{
+		width: 50%;
+		height: 50px;
+		display: inline-block;
+		float: left;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footerright{
+		clear: both;
+		width: 100%;
+		height: 50px;
+		display: block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footerright a{
+		padding-left: 20px;
+	}
+	.footer_bottom {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+}
+
+@media(max-width: 520px){
+	#wrappercontainer{
+		width: 100%;
+	}
+	#header_navbar img{
+		width: 100px;
+		height: 40px;
+		margin-top: -20px;
+	}
+	header{
+		width: 100%;
+		height: 60px;
+	}
+	#header_img{
+		margin-left: 30px;
+	}
+	#range{
+		top: 60px;
+	}
+	#header_button{
+		display: none;
+	}
+	#video{
+		width: 100%;
+		height: 600px;
+	}
+	.owl-theme .owl-nav[class*='owl-']{
+		display: none;
+	}
+	#videot{
+		width: 100%;
+	}
+	.video_title{
+		width: 80%;
+		height: 200px;
+		margin: 20px auto;
+		text-align: center;
+	}
+	.video_title h1{
+		font-size: 2.5em;
+	}
+
+	#wrapper{
+		width: 80%;
+		height: 80%;
+		top: 60%;
+	}
+	#forpeople{
+		width: 95%;
+		height: 100%;
+	}
+	#forpeople h2, #withyou h2, #newsroom h2, #Anniversary h2{
+		font-size: 1.5em;
+	}
+	.onepage span{	
+	font-size: 0.8em;	
+	}
+	.twopage{
+		width: 100%;
+		height: 100%;
+	}
+	.twopage p{
+		font-size: 0.9em;
+	}
+	#withyou{
+		width: 100%;
+		height: 100%;
+	}
+	.withyoubox{
+		width: 95%;
+		height: 50%;
+		margin: 0 auto;
+	}
+	.withyou_article{
+		width: 100%;
+		height: 100%;
+	}
+	.withyou_article img{
+		width: 100%;
+		height: 100%;
+	}
+	.withyouvrog p{
+		font-size: 1.1em;
+	}
+	#newsroom{
+		width: 95%;
+		height: 1200px;
+	}
+	.newsroombox{
+		width: 100%;
+		margin-left: 10px;
+	}
+	.newsroombox2{
+		width: 100%;
+		display: block;
+	}
+	.newsroombox2_box p{
+		font-size: 0.88em;
+		padding-top: 20px;
+	}
+	#Anniversary{
+		width: 95%;
+		height: 100%;
+	}
+	footer{
+		width: 100%;
+		height: 100%;
+	}
+	.footerbox{
+		width: 100%;
+		height: 400px;
+		padding-left: 20px;
+		text-align: left;
+		border: none;
+	}
+	.footerleft{
+		width: 100%;
+		height: 50px;
+		display: inline-block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footercenter{
+		width: 100%;
+		height: 300px;
+		display: inline-block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footercenter a{
+		width: 100%;
+		height: 50px;
+		display: inline-block;
+		float: left;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footerright{
+		clear: both;
+		width: 100%;
+		height: 50px;
+		display: block;
+		border-bottom: 1px dotted #bbb;
+	}
+	.footerright a{
+		padding-left: 20px;
+	}
+	.footer_bottom {
+		width: 100%;
+		height: 200px;
+		display: block;
+	}
+}
+
+
+ @media (min-aspect-ratio: 16/9) {
+        .wrap > video {
+          height: 300%;
+          top: -100%;
+        }
+      }
+      @media (max-aspect-ratio: 16/9) {
+        .wrap > video {
+          width: 300%;
+          left: -100%;
+        }
+      }
+      @supports (object-fit: cover) {
+        .wrap > video {
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
