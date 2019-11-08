@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="Line.css">
+	<link rel="stylesheet" href="Linemax.css">
+	<meta charset="UTF-8">
+	<title>LINE FRIENDS</title>
+</head>
+<body>
+	<div id="wrapper">
+		<!-- page1 시작 -->
+		<header>
+			<div class="header_container">
+				<h1>LINE FRIENDS</h1>
+
+				<nav>
+					<a href="#about" class="navscroll">ABOUT</a>
+					<a href="#core" class="navscroll">CORE BUSINESS</a>
+					<a href="#gallery" class="navscroll">GALLERY</a>
+					<a href="#media" class="navscroll">MEDIA</a>
+					<a href="#nottice" class="navscroll">NOTICE</a>
+					<a>SHOP ONLINE</a>
+				</nav>
+
+				<a href="#none" style="font-size: 0.9em;" class="eng"><span>한국어 ∨</span>
+					<div class="engbox">
+						<p>한국어</p>
+						<p>ENGLISH</p>
+						<p>日本語</p>
+					</div>
+				</a>
+			</div>
+		</header>
+
+		<!-- 탑 고정메뉴 -->
+		<div class="header_fix">
+			<div class="header_fix2">
+				<h1>LINE FRIENDS</h1>
+
+				<nav>
+					<a href="#about" class="navscroll">ABOUT</a>
+					<a href="#core" class="navscroll">CORE BUSINESS</a>
+					<a href="#gallery" class="navscroll">GALLERY</a>
+					<a href="#media" class="navscroll">MEDIA</a>
+					<a href="#nottice" class="navscroll">NOTICE</a>
+					<a>SHOP ONLINE</a>
+				</nav>
+
+				<a href="#none" style="font-size: 0.9em;" class="eng"><span>한국어 ∨</span>
+					<div class="engbox">
+						<p>한국어</p>
+						<p>ENGLISH</p>
+						<p>日本語</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	
+
+		<div class="container">
+			<div class="maintitle">
+				<p>Global Creative Studio</p>
+				<p>LINE FRIENDS</p>
+			</div>
+			<!-- 클릭버튼 -->
+			<div class="clickbtn">
+				<div id="prevbtn">
+					<button>〈</button>
+				</div>
+				<div id="nextbtn">
+					<button>〉</button>
+				</div>
+			</div> 
+			<!-- 메인 이미지 -->
+			<div class="containerback"></div>
+			<div class="containerimg">
+				<img class="img" src="lineImg/b48fa919ea9f40518b77d10f51691602.jpg" alt="">
+				<img class="img" src="lineImg/f97a2e463c97422496a48ae3cc48ebab.jpg" alt="">
+				<img class="img" src="lineImg/063d782f5e99431dacd11bfdc8d56d8d.jpg" alt="">
+				<img class="img" src="lineImg/a546b671f9034b1eabac1d266c1b0f1c.jpg" alt="">
+				<img class="img" src="lineImg/b702efc697ec4f93b22bcb7c70883ea7.jpg" alt="">
+				<img class="img" src="lineImg/d3996fb2e3994ca0b818a50e958fd855.jpg" alt="">
+			</div>
+
+			<div class="dotcontainer">
+				<span class="dotbtn" onclick="dot(0)"></span>
+				<span class="dotbtn" onclick="dot(1)"></span>
+				<span class="dotbtn" onclick="dot(2)"></span>
+				<span class="dotbtn" onclick="dot(3)"></span>
+				<span class="dotbtn" onclick="dot(4)"></span>
+				<span class="dotbtn" onclick="dot(5)"></span>
+			</div>
+		</div>
+		<!-- page1 끝 -->
+
+		<!-- page2 시작 -->
+		<div class="page2" id="about">
+			<div class="page2_wrap">
+				<h2>ABOUT<br>LINE FRIENDS</h2>
+				<P>라인프렌즈는 2011년,모바일 메신저 '라인'의 스티커 캐릭터로 탄생했습니다.<br> 오리지널 캐릭터 '브라운앤프렌즈'에 이어 글로벌 인기 아티스트 방탄소년단과 함께 만든 <br>'BT21',중국의 아이돌 스타 왕위엔과 협업한 'ROY6'등 새로운 캐릭터 IP들이<br>밀레니얼 세대의 큰 사랑을 받으며, 다양한 IP를 보유한 글로벌 크리에이티브 스튜디오로 도약하고 있습니다.</P>
+			</div>
+
+			<div class="page2_wrapvideo">
+				<img src="lineImg/img_about_thumb.jpg" alt="">
+			</div>
+
+			<div id="page2_modal">
+				<div id="page2_modal2">
+					<iframe width="1000" height="600" src="https://www.youtube.com/embed/YdGtxXYIFQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<span id="page2_modalbtn">Ⅹ</span>
+			</div>
+
+		</div>
+
+		<!-- page3시작 -->
+		<div class="page3" id="core">
+			<div class="page3_container">
+				<h3>CORE BUSINESS</h3>
+				<div class="page3_box">
+					<img src="lineImg/img_sec_icon4.gif" alt="">
+					<p class="core">RETAIL</p>
+					<p class="core_sub">다양한 캐릭터 제품을 자체 제작하여 전 세계 주요 도시의 온/오프라인 스토어에서 판매하고 매장을 통해 도심 속 활력의 경험을 제공합니다.</p>
+				</div>
+
+				<div class="page3_box">
+					<img src="lineImg/img_sec_icon5.gif" alt="">
+					<p class="core">PARTNERSHIP</p>
+					<p class="core_sub">다양한 글로벌 파트너들과의 전략적 제휴를 통해 콜라보레이션, 라이센싱 제품을 만들고 서로의 철학과 가치를 나눕니다.​</p>
+				</div>
+
+				<div class="page3_box">
+					<img src="lineImg/img_sec_icon6.gif" alt="">
+					<p class="core">CONTENTS</p>
+					<p class="core_sub">애니메이션, 게임 콘텐츠를 내부 스튜디오에서 자체 제작하는 동시에 IT 노하우와 기술을 더하여 AI,IoT 등으로 사업을 확장하고 있습니다.
+					</p>
+				</div>
+
+				<button>제휴 제안</button>
+
+			</div>
+		</div>
+
+		<!-- page4 시작 -->
+		<div class="page4" id="gallery">
+			<div class="page4_container">
+				<img class="img2" src="lineImg/5e9e58d2a43c40a599b8918bd72c9df5.jpg" alt="">
+				<img class="img2" src="lineImg/67b21996a3344742a5662171cd7677b8.jpg" alt="">
+				<img class="img2" src="lineImg/5063a11e33b543ceaf0749cd0c644ac6.jpg" alt="">
+				<img class="img2" src="lineImg/90278d132a464ce2aa2326c23c379790.jpg" alt="">
+				<img class="img2" src="lineImg/358880900eb04b75a2f854666f0bc2a8.jpg" alt="">
+				<img class="img2" src="lineImg/b48fa919ea9f40518b77d10f51691602.jpg" alt="">
+
+			</div>
+
+			<!-- 클릭버튼 -->
+			<div class="clickbtn2">
+				<div id="prevbtn2">
+					<button>〈</button>
+				</div>
+				<div id="nextbtn2">
+					<button>〉</button>
+				</div>
+			</div> 
+		</div>
+
+		<!-- page5시작 -->
+		<div class="page5" id="media">
+			<div class="page5_container">
+				<h4>MEDIA</h4>
+
+				<div class="page5_box">
+					<div class="page5_box1">
+						<img src="lineImg/c330273f1151454b8ffcfbd57bf173aa.jpg" alt="">
+					</div>
+					<div class="page5_box2">
+						<p>라인프렌즈의 새로운 스토어 브랜드 '플레이 라인프렌즈' 인사동에 성황리 오픈</p>
+						<p>라인프렌즈가 새로운 스토어 브랜드인 '플레이 라인프렌즈(PLAY LINE FRIENDS)'를 런칭하고, 지난 9일인사동에 '플레이 라인프렌즈 인사동점'을 성황리에 오픈했다.</p>
+						<p>2019-10-10</p>
+					</div>
+				</div>	
+				
+				<div class="page5_box">
+					<div class="page5_box1">
+						<img src="lineImg/0e5fbe25d50b4949ba275d640a16243b.jpg" alt="">
+					</div>
+					<div class="page5_box2">
+						<p>라인프렌즈, 올가을 손글씨 감성 깨우는 '까렌다쉬X 라인프렌즈 849 펜 시리즈' 에디션</p>
+						<p>라인프렌즈가 오랜 전통의 스위스 명품 스테이셔너리 브랜드 '까렌다쉬'와 컬래버레이션으로 완성한 '까렌다쉬X 라인프렌즈 849 펜 시리즈' 를 오는 8일 글로벌 런칭한다.</p>
+						<p>2019-10-07</p>
+					</div>
+				</div>	
+
+				<div class="page5_box">
+					<div class="page5_box1">
+						<img src="lineImg/7b92c9377796411b95ccbe8631dfde57.jpg" alt="">
+					</div>
+					<div class="page5_box2">
+						<p>라인프렌즈, 온라인 커스터마이징 패션 플랫폼'라인프렌즈 크리에이터'글로벌 런칭</p>
+						<p>라인프렌즈가 소비자가 자신만의 취향과 라이프스타일에 맞춰 패션 아이템을 직접 제작할 수 있는 온라인 커스터마이징 패션 플랫폼'라인프렌즈 크리에이터'를 유럽을 제외한 글로벌 전역에 런칭한다.</p>
+						<p>2019-09-19</p>
+					</div>
+				</div>
+
+				<div class="page5_num">
+					<span>1</span>
+					<span>2</span>
+					<span>3</span>
+					<span>4</span>
+					<span>5</span>
+					<span>≫</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- page6 시작 -->
+		<div class="page6" id="notice">
+			<div class="page6_container">
+				<h5>NOTICE</h5>
+
+				<div class="page6_box">
+					<table>
+						<tr>
+							<td class="cls001">번호</td>
+							<td class="cls002">지역</td>
+							<td class="cls003">제목</td>
+							<td class="cls004">날짜</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>한국</td>
+							<td align="left"><strong>[이벤트 공지]TikTok | LINE FRIENDS 챌린지 스토어 할인 이벤트 안내</strong></td>
+							<td>2019-10-17</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>한국</td>
+							<td align="left"><strong><span>[스토어 공지] 플레이 라인프렌즈 인사동 오픈 및 이벤트 안내</strong></span></td>
+							<td>2019-10-04</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>한국</td>
+							<td align="left"><strong>[스토어 공지] 라인프렌즈 플래그십 스토어 강남점 오픈 및 이벤트 안내</strong></td>
+							<td>2019-07-31</td>
+						</tr>
+					</table>
+
+					<div class="page6_num">
+						<span>1</span>
+						<span>2</span>
+						<span>3</span>
+						<span>4</span>
+						<span>5</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- page7시작 -->
+		<div class="page7">
+			<div class="page7_container">
+				<div class="page7_box">
+					<div class="page7_box1">
+						<img src="lineImg/img_ip_thumb1.jpg" alt="">
+					</div>
+					<div class="page7_box2">
+						<p>BROWN & FRIENDS</p>
+						<p>전 세계 2억 명이 사용하는 모바일 메신저 '라인'의 스티커 캐릭터로 탄생한 'BROWN & FRIENDS'는 이제 모바일을 넘어 캐릭터 제품, 애니메이션, 게임,카페,호텔 등 다양한 영역에서 만날 수 있는 글로벌 라이프스타일 브랜드가 되었습니다.</p>
+						<a href="#none">OFFICIAL CHANNEL 〉</a>
+					</div>
+				</div>
+				<div class="page7_box">
+					<div class="page7_box1">
+						<img src="lineImg/img_ip_thumb2.jpg" alt="">
+					</div>
+					<div class="page7_box2">
+						<p>BT21</p>
+						<p>BT21은 글로벌 인기 아티스트 BTS와 라인프렌즈가 만든 캐릭터 IP로 ‘FRIENDS CREATORS’ 프로젝트를 통해 탄생했습니다. BTS 멤버들이 제작 과정에 직접 참여하여 각자의 개성과 감성을 담은 총 8종의 캐릭터를 만들었고, 출시와 함께 전 세계 밀레니얼들의 폭발적인 공감을 이끌어내며 큰 사랑을 받고 있습니다.</p>
+						<a href="#none">OFFICIAL CHANNEL 〉</a>
+						<a href="#none">CHARACTERS 〉</a>
+					</div>
+				</div>
+
+				<div class="page7_box">
+					<div class="page7_box1">
+						<img src="lineImg/img_ip_thumb3.jpg" alt="">
+					</div>
+					<div class="page7_box2">
+						<p>ROY6</p>
+						<p>ROY6는 중국의 차세대 아이돌 왕위엔 (Roy Wang) 과 함께 만든 캐릭터 IP 입니다. 라인프렌즈의 전문성과 아티스트의 창의성을 결합하여 새로운 IP를 만드는 ‘FRIENDS CREATORS’ 프로젝트의 취지에 맞춰, 왕위엔의 긍정적인 기운과 라인프렌즈의 디자인 역량이 가미된 6종의 캐릭터가 탄생했습니다.</p>
+						<a href="#none">OFFICIAL CHANNEL 〉</a>
+						<a href="#none">CHARACTERS 〉</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- footer 시작 -->
+		<footer>
+			<div class="footer">
+				<div class="footleft">
+					<a href="#">LINE FRIENDS</a>
+				</div>
+
+				<div class="footcenter">
+					<a href="#none">제휴 제안</a>
+					<a href="#none">온라인 스토어</a>
+					<a href="#none">개인정보 처리방침</a>
+					<a href="#none">FRIENDS CARE</a>
+					
+					<p>라인프렌즈 주식회사 | 사업자등록번호:726-87-00000 | 통신판매업 신고전화:2015-경기수원-0505<br>대표이사:김성훈 | 서울 용산구 이태원로 200 라인프렌즈 5층 |1544-5921</p>
+
+					<address>Copyright @ LINE Friends All Rights Reserved</address>
+				</div>
+
+				<div class="footright">
+					<a href="https://ko-kr.facebook.com"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://www.instagram.com/?hl=ko"><i class="fab fa-instagram"></i></a>
+					<a href="https://twitter.com/?lang=ko"><i class="fab fa-twitter-square"></i></a>
+					<a href="https://www.youtube.com/premium"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+				
+
+		</footer>
+
+	</div>
+	<script src="Line.js"></script>
+</body>
+</html>
