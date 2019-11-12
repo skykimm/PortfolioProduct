@@ -279,9 +279,9 @@ nav p button:focus {
 }
 
 .boxtitle{
- 	font-size: 17px;
+ 	font-size: 15px;
  	font-weight: 600;
- 	line-height: 2;
+ 	line-height: 1.6;
  	margin-top: 20px;
 }
 .boxtitle:hover{
