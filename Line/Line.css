@@ -51,6 +51,10 @@ a:link, a:visited{
 	justify-content: space-between;
 	align-items: center;
 }
+.header_fix2 a{
+	display: inline-block;
+	cursor: pointer;
+}
 .header_fix2 h1{
 	font-size: 1.5em;
 	font-weight: 900;
@@ -73,6 +77,10 @@ a:link, a:visited{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.header_container a{
+	display: inline-block;
+	cursor: pointer;
 }
 .header_container h1{
 	font-size: 1.5em;
