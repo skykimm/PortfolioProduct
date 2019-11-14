@@ -39,7 +39,7 @@ function next_slider(){
 		firstslide.classList.add(SHOWINGCLASS);
 	}
 
-	// window.setInterval("next_slider()",3000);
+	window.setInterval("next_slider()",4000);
 
 };
 
