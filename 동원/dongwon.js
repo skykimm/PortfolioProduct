@@ -132,5 +132,5 @@ window.onscroll = function(){
 	scrollicon(),topfixbar(),bottomscroll()};
 
 window.onload= function(){
-	setTimeout(videoa,2000);
+	window.setTimeout("videoa()",2000);
 }
