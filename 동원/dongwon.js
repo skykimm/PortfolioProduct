@@ -68,8 +68,8 @@ openbtn.addEventListener("click",iconBox2);
 
 
 function modal(){
-	modaloverlay.classList.toggle(SHOWING);
-	if(modaloverlay.classList.contains(SHOWING)){
+	modaloverlay.classList.toggle("openmodal");
+	if(modaloverlay.classList.contains("openmodal")){
 		modalbtn.innerHTML=`<i class="fas fa-times"></i>`
 	}
 	else{
@@ -81,8 +81,8 @@ modalbtn.addEventListener("click",modal);
 
 
 function modal2(){
-	modaloverlaytwo.classList.toggle(SHOWING);
-	if(modaloverlaytwo.classList.contains(SHOWING)){
+	modaloverlaytwo.classList.toggle("openmodal");
+	if(modaloverlaytwo.classList.contains("openmodal")){
 		modalbtntwo.innerHTML=`<i class="fas fa-times"></i>`
 	}
 	else{
@@ -92,27 +92,27 @@ function modal2(){
 }
 modalbtntwo.addEventListener("click",modal2);
 
-btn1.addEventListener("mouseover", () => {
+btn1.addEventListener("mouseover", function ()  {
   mega[0].style.display = "block";
 });
 
-btn1.addEventListener("mouseout", () => {
+btn1.addEventListener("mouseout", function ()  {
  mega[0].style.display = "none";
 });
 
-btn2.addEventListener("mouseover", () => {
+btn2.addEventListener("mouseover", function ()  {
   mega[1].style.display = "block";
 });
 
-btn2.addEventListener("mouseout", () => {
+btn2.addEventListener("mouseout", function ()  {
   mega[1].style.display = "none";
 });
 
-btn3.addEventListener("mouseover", () => {
+btn3.addEventListener("mouseover", function ()  {
   mega[2].style.display = "block";
 });
 
-btn3.addEventListener("mouseout", () => {
+btn3.addEventListener("mouseout", function ()  {
   mega[2].style.display = "none";
 });
 

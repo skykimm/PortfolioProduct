@@ -23,20 +23,20 @@ var headerFix = document.querySelector("header");
 
 
 function next_slider(){
-	var currnetslide = document.querySelector(`.${SHOWINGCLASS}`);
+	var currnetslide = document.querySelector(".showing");
 
 	if(currnetslide){
-		currnetslide.classList.remove(SHOWINGCLASS);
+		currnetslide.classList.remove("showing");
 		var nextslide = currnetslide.nextElementSibling;
 		if(nextslide){
-			nextslide.classList.add(SHOWINGCLASS);
+			nextslide.classList.add("showing");
 		}
 		else{
-			firstslide.classList.add(SHOWINGCLASS);
+			firstslide.classList.add("showing");
 		}
 	}
 	else{
-		firstslide.classList.add(SHOWINGCLASS);
+		firstslide.classList.add("showing");
 	}
 
 	window.setInterval("next_slider()",4000);
@@ -44,20 +44,20 @@ function next_slider(){
 };
 
 function prev_slider(){
-	var currnetslide = document.querySelector(`.${SHOWINGCLASS}`);
+	var currnetslide = document.querySelector(".showing");
 
 	if(currnetslide){
-		currnetslide.classList.remove(SHOWINGCLASS);
+		currnetslide.classList.remove("showing");
 		var prevslide = currnetslide.previousElementSibling;
 		if(prevslide){
-			prevslide.classList.add(SHOWINGCLASS);
+			prevslide.classList.add("showing");
 		}
 		else{
-			lastslide.classList.add(SHOWINGCLASS);
+			lastslide.classList.add("showing");
 		}
 	}
 	else{
-		lastslide.classList.add(SHOWINGCLASS);
+		lastslide.classList.add("showing");
 	}
 }
 next_slider();

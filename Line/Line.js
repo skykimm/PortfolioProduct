@@ -19,15 +19,15 @@ var engbox = document.querySelector(".engbox");
 var dotted = document.querySelectorAll(".dotbtn");
 
 function dot(e){
-	var currentslide = document.querySelector(`.${SHOWINGCLASS}`);
-	var currentdotted = document.querySelector(`.${DOTTED}`);
+	var currentslide = document.querySelector(".showing");
+	var currentdotted = document.querySelector("dotted");
 
 	if(currentdotted){
-		currentslide.classList.remove(SHOWINGCLASS);
-		currentdotted.classList.remove(DOTTED);
+		currentslide.classList.remove("showing");
+		currentdotted.classList.remove("dotted");
 	}
-	dotted[e].classList.add(DOTTED);
-	slide[e].classList.add(SHOWINGCLASS);
+	dotted[e].classList.add("dotted");
+	slide[e].classList.add("showing");
 };
 
 
@@ -53,49 +53,49 @@ $(function(){
 });
 
 function nextSlides(){
-	var currentslide = document.querySelector(`.${SHOWINGCLASS}`);
-	var currentdotted = document.querySelector(`.${DOTTED}`);
+	var currentslide = document.querySelector(".showing");
+	var currentdotted = document.querySelector(".dotted");
 	if(currentslide){
-		currentslide.classList.remove(SHOWINGCLASS);
-		currentdotted.classList.remove(DOTTED);
+		currentslide.classList.remove("showing");
+		currentdotted.classList.remove("dotted");
 		var nextslide = currentslide.nextElementSibling;
 		var nextdotted = currentdotted.nextElementSibling;
 		if(nextslide){
-			nextslide.classList.add(SHOWINGCLASS);
-			nextdotted.classList.add(DOTTED);
+			nextslide.classList.add("showing");
+			nextdotted.classList.add("dotted");
 		}
 		else{
-			firstSlide.classList.add(SHOWINGCLASS);
-			firstDotbtn.classList.add(DOTTED);			
+			firstSlide.classList.add("showing");
+			firstDotbtn.classList.add("dotted");			
 		}
 	}
 	else{
-		firstSlide.classList.add(SHOWINGCLASS);
-		firstDotbtn.classList.add(DOTTED);
+		firstSlide.classList.add("showing");
+		firstDotbtn.classList.add("dotted");
 		
 	}
 };
 
 function prevSlides(){
-	var currentslide = document.querySelector(`.${SHOWINGCLASS}`);
-	var currentdotted = document.querySelector(`.${DOTTED}`);
+	var currentslide = document.querySelector(".showing");
+	var currentdotted = document.querySelector(".dotted");
 	if(currentslide){
-		currentslide.classList.remove(SHOWINGCLASS);
-		currentdotted.classList.remove(DOTTED);
+		currentslide.classList.remove("showing");
+		currentdotted.classList.remove("dotted");
 		var prevslide=currentslide.previousElementSibling;
 		var prevdotted = currentdotted.previousElementSibling;
 		if(prevslide){
-			prevslide.classList.add(SHOWINGCLASS);
-			prevdotted.classList.add(DOTTED);
+			prevslide.classList.add("showing");
+			prevdotted.classList.add("dotted");
 		}
 		else{
-			lastSlide.classList.add(SHOWINGCLASS);
-			lastDotbtn.classList.add(DOTTED);
+			lastSlide.classList.add("showing");
+			lastDotbtn.classList.add("dotted");
 		}
 	}
 	else{
-		lastSlide.classList.add(SHOWINGCLASS);
-		lastDotbtn.classList.add(DOTTED);
+		lastSlide.classList.add("showing");
+		lastDotbtn.classList.add("dotted");
 	}
 };
 nextSlides();
@@ -103,37 +103,37 @@ nextbtn.addEventListener("click",nextSlides);
 prevbtn.addEventListener("click",prevSlides);
 
 function nextSlides2(){
-	var currentslide2 = document.querySelector(`.${SHOWINGCLASS2}`);
+	var currentslide2 = document.querySelector(".showing2");
 	if(currentslide2){
-		currentslide2.classList.remove(SHOWINGCLASS2);
+		currentslide2.classList.remove("showing2");
 		var nextslide2 = currentslide2.nextElementSibling;
 		if(nextslide2){
-			nextslide2.classList.add(SHOWINGCLASS2);
+			nextslide2.classList.add("showing2");
 		}
 		else{
-			firstSlide2.classList.add(SHOWINGCLASS2);			
+			firstSlide2.classList.add("showing2");			
 		}
 	}
 	else{
-		firstSlide2.classList.add(SHOWINGCLASS2);
+		firstSlide2.classList.add("showing2");
 		
 	}
 };
 
 function prevSlides2(){
-	var currentslide2 = document.querySelector(`.${SHOWINGCLASS2}`);
+	var currentslide2 = document.querySelector(".showing2");
 	if(currentslide2){
-		currentslide2.classList.remove(SHOWINGCLASS2);
+		currentslide2.classList.remove("showing2");
 		var prevslide2=currentslide2.previousElementSibling;
 		if(prevslide2){
-			prevslide2.classList.add(SHOWINGCLASS2);
+			prevslide2.classList.add("showing2");
 		}
 		else{
-			lastSlide2.classList.add(SHOWINGCLASS2);
+			lastSlide2.classList.add("showing2");
 		}
 	}
 	else{
-		lastSlide2.classList.add(SHOWINGCLASS2);
+		lastSlide2.classList.add("showing2");
 	}
 };
 nextSlides2();
