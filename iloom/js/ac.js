@@ -25,61 +25,62 @@ function tabshowing(n){
 }
 
 
-btn1.addEventListener("mouseover", () => {
+btn1.addEventListener("mouseover", function () {
   mega[0].style.display = "block";
 });
 
-btn1.addEventListener("mouseout", () => {
+btn1.addEventListener("mouseout", function () {
  mega[0].style.display = "none";
 });
 
-btn2.addEventListener("mouseover", () => {
+btn2.addEventListener("mouseover", function () {
   mega[1].style.display = "block";
 });
 
-btn2.addEventListener("mouseout", () => {
+btn2.addEventListener("mouseout", function () {
   mega[1].style.display = "none";
 });
 
-btn3.addEventListener("mouseover", () => {
+btn3.addEventListener("mouseover", function () {
   mega[2].style.display = "block";
 });
 
-btn3.addEventListener("mouseout", () => {
+btn3.addEventListener("mouseout", function () {
   mega[2].style.display = "none";
 });
 
-btn4.addEventListener("mouseover", () => {
+btn4.addEventListener("mouseover", function () {
   mega[3].style.display = "block";
 });
 
-btn4.addEventListener("mouseout", () => {
+btn4.addEventListener("mouseout", function () {
   mega[3].style.display = "none";
 });
 
-btn5.addEventListener("mouseover", () => {
+btn5.addEventListener("mouseover", function () {
   mega[4].style.display = "block";
 });
 
-btn5.addEventListener("mouseout", () => {
+btn5.addEventListener("mouseout", function () {
   mega[4].style.display = "none";
 });
 
-btn6.addEventListener("mouseover", () => {
+btn6.addEventListener("mouseover", function () {
   mega[5].style.display = "block";
 });
 
-btn6.addEventListener("mouseout", () => {
+btn6.addEventListener("mouseout", function () {
   mega[5].style.display = "none";
 });
 
-btn7.addEventListener("mouseover", () => {
+btn7.addEventListener("mouseover", function () {
   mega[6].style.display = "block";
 });
 
-btn7.addEventListener("mouseout", () => {
+btn7.addEventListener("mouseout", function () {
   mega[6].style.display = "none";
 });
+
 
 function headerScroll(){
   if(document.documentElement.scrollTop > 20){
