@@ -21,7 +21,10 @@ a:link, a:visited{
 li{
 	list-style: none;
 }
-
+h2{
+	margin: 0;
+	padding: 0;
+}
 #wrapper{
 	width: 100%;
 	height: auto;
@@ -237,15 +240,15 @@ nav p button:focus {
 	line-height: 50px;
 }
 .sectioncontainer{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 200px;
+	/*padding: 0 100px;*/
 }
 .sectioncontainer .section_box{
-	width: 500px;
+	width: 400px;
 	height: 100%;
 	padding: 30px 0;
 	cursor: pointer;
