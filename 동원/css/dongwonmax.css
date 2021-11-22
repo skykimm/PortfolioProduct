@@ -7,10 +7,13 @@
 	}
 }
 
-@media(max-width: 960px){
-	#wrappercontainer{
-		width: 100%;
+/* @media(max-width: 1094px){
+	.footerbox{
+		width: 1040px;
 	}
+} */
+
+@media(max-width: 960px){
 	#header_nav{
 		display: none;
 	}
@@ -28,124 +31,40 @@
 		display: none;
 	}
 	#video{
-		width: 100%;
 		height: 800px;
 	}
-	#videot{
-		width: 100%;
-	}
 	.video_title{
-		width: 80%;
 		height: 180px;
 		margin: 0 auto;
-		text-align: center;
 	}
 	.video_title h1{
 		font-size: 3em;
 	}
-
 	#wrapper{
 		width: 60%;
 		height:60%;
 		top: 60%;
 	}
-	#forpeople{
-		width: 95%;
-		height: 100%;
-	}
 	.twopage p{
 		font-size: 1em;
-	}
-	#withyou{
-		width: 100%;
-		height: 100%;
-	}
-	.withyoubox{
-		width: 95%;
-		height: 50%;
-		margin: 0 auto;
-	}
-	.withyou_article{
-		width: 100%;
-		height: 100%;
-	}
-	.withyou_article img{
-		width: 100%;
-		height: 100%;
 	}
 	.withyouvrog p{
 		font-size: 1.2em;
 	}
-	#newsroom{
-		width: 95%;
-		height: 1300px;
-	}
-	.newsroombox{
-		width: 100%;
-		margin-left: 10px;
-	}
-	.newsroombox2{
-		width: 100%;
-		display: block;
-	}
-	#Anniversary{
-		width: 95%;
-		height: 100%;
-	}
 	footer{
 		clear: both;
-		width: 100%;
 		height: 450px;
 	}
 	.footerbox{
-		width: 100%;
 		height: 300px;
-		padding-left: 20px;
-		text-align: left;
-		border: none;
 		font-size: 0.8em;
 	}
-	.footerleft{
-		width: 100%;
-		height: 50px;
-		display: inline-block;
-		border-bottom: 1px dotted #bbb;
-	}
-	.footercenter{
-		width: 100%;
-		height: 150px;
-		display: inline-block;
-		border-bottom: 1px dotted #bbb;
-	}
-	.footercenter a{
-		width: 50%;
-		height: 50px;
-		display: inline-block;
-		float: left;
-		border-bottom: 1px dotted #bbb;
-	}
-	.footerright{
-		clear: both;
-		width: 100%;
-		height: 50px;
-		display: block;
-		border-bottom: 1px dotted #bbb;
-	}
-	.footerright a{
-		padding-left: 20px;
-	}
 	.footer_bottom {
-		width: 100%;
 		height: auto;
-		display: block;
 	}
-
 }
 
-@media(max-width: 520px){
-	#wrappercontainer{
-		width: 100%;
-	}
+@media(max-width: 1024px){
 	#header_navbar img{
 		width: 100px;
 		height: 40px;
@@ -187,7 +106,7 @@
 	#wrapper{
 		width: 80%;
 		height: 80%;
-		top: 60%;
+		top: 55%;
 	}
 	#forpeople{
 		width: 95%;
@@ -228,15 +147,6 @@
 	}
 	#newsroom{
 		width: 95%;
-		height: 1200px;
-	}
-	.newsroombox{
-		width: 100%;
-		margin-left: 10px;
-	}
-	.newsroombox2{
-		width: 100%;
-		display: block;
 	}
 	.newsroombox2_box p{
 		font-size: 0.88em;
@@ -292,26 +202,36 @@
 		display: block;
 	}
 }
+@media (max-width : 825px){
+	.newsroombox{
+		display: block;
+		width: 100%;
+	}
+	.newsroombox2{
+		display: block;
+		width: 100%;
+		padding-left: 0;
+	}
+}
 
-
- @media (min-aspect-ratio: 16/9) {
-        .wrap > video {
-          height: 300%;
-          top: -100%;
-        }
-      }
-      @media (max-aspect-ratio: 16/9) {
-        .wrap > video {
-          width: 300%;
-          left: -100%;
-        }
-      }
-      @supports (object-fit: cover) {
-        .wrap > video {
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
+@media (min-aspect-ratio: 16/9) {
+	.wrap > video {
+		height: 300%;
+		top: -100%;
+	}
+}
+	@media (max-aspect-ratio: 16/9) {
+	.wrap > video {
+		width: 300%;
+		left: -100%;
+	}
+}
+	@supports (object-fit: cover) {
+	.wrap > video {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

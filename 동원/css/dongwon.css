@@ -10,7 +10,7 @@ html{
 }
 
 body{
-	font-family: "NotoSans DemiLight","Malgun Gothic","맑은 고딕","돋움",dotum,
+	font-family: "NotoSans DemiLight","Malgun Gothic","맑은 고딕","돋움";
 	font-size: 1em;
 	font-weight: 300;
 }
@@ -48,13 +48,13 @@ li{
 	font-size: 1.5em;
 }
 header {
-  width: 100%;
-  height:auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: 999999;
+	width: 100%;
+	height:auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 999999;
 }
 
 #header_navbar{
@@ -382,10 +382,9 @@ header {
 }
 
 #forpeople{
-	width: 60%;
+	width: 1040px;
 	margin: 0 auto;
 	position: relative;
-	/*overflow: hidden;*/
 	margin-top: 50px;
 	cursor: pointer;
 }
@@ -417,25 +416,23 @@ header {
 	font-size: 1.5em;
 	padding-left: 20px;
 }
+.twopage-box{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -9px 50px;
+}
 .twopage{
-	width: 32%;
-	height: auto;
-	float: left;
+	flex: 1;
 	overflow: hidden;
-	position: relative;
-	margin-left: 1%;
-	margin-bottom: 50px;
+	margin: 0 9px;
 }
 .twopageimg{
-	width: 100%;
-	height: 250px;
 	overflow: hidden;
 	margin-bottom: 10px;
 	cursor: pointer;
 }
 .twopage img{
 	width: 100%;
-	height: 100%;
 	transition: 0.7s;
 }
 
@@ -448,7 +445,6 @@ header {
 	line-height: 1.5;
 	font-size: 1.2em;
 	font-weight: bold;
-	padding-left: 10px;
 	display: inline-block;
 }
 section #withyou:before {
@@ -458,8 +454,7 @@ section #withyou:before {
 #withyou{
 	clear: both;
 	overflow: hidden;
-	width: 60%;
-	height: 1300px;
+	width: 1040px;
 	margin: 0 auto;
 	background: #eee;
 }
@@ -467,7 +462,6 @@ section #withyou:before {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	po
 }
 #withyou h2{
 	text-align: center;
@@ -478,7 +472,6 @@ section #withyou:before {
 }
 .withyou_article{
 	width:100%;
-	height: 600px;
 	overflow: hidden;
 	margin-bottom: 30px;
 	position: relative;
@@ -503,9 +496,8 @@ section #withyou:before {
 	display: block;	
 }
 #newsroom{
-	width: 60%;
-	height: 800px;
-	margin: 0 auto;
+	width: 1040px;
+	margin: 0 auto 100px;
 	overflow: hidden;
 	position: relative;
 }
@@ -518,7 +510,6 @@ section #withyou:before {
 }
 .newsroombox{
 	width: 60%;
-	height: 500px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -534,8 +525,8 @@ section #withyou:before {
 }
 .newsroombox .news{
 	position: absolute;
-	top: 93%;
 	left: 2%;
+	bottom: 2%;
 	font-size: 1.1em;
 	font-weight: 600;
 	color: #fff;
@@ -543,7 +534,6 @@ section #withyou:before {
 }
 .newsroombox2{
 	width: 40%;
-	height: 500px;
 	float: left;
 	padding-left: 10px;
 	cursor: pointer;
@@ -567,7 +557,7 @@ section #withyou:before {
 #backgroundfix{
 	width: 100%;
 	height: 500px;
-	background: url(Vtrv9il.jpg);
+	background: url('../images/Vtrv9il.jpg');
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -586,9 +576,8 @@ section #withyou:before {
 	letter-spacing: 5px;
 }
 #Anniversary{
-	width: 60%;
-	height: 1300px;
-	margin: 0 auto;
+	width: 1040px;
+	margin: 0 auto 100px;
 }
 .Anniversarybox{
 	width: 100%;
@@ -604,7 +593,6 @@ section #withyou:before {
 }
 footer{
 	width: 100%;
-	height: 200px;
 	background: #eee;
 }
 .footerbox{
@@ -620,7 +608,6 @@ footer{
 	height: 60px;
 	float: left;
 	font-size: 0.8em;
-	padding-left: 10px;
 }
 .footercenter{
 	width: 65%;
@@ -675,4 +662,11 @@ footer{
 	font-size: 1.5em;
 	font-weight: 900;
 	display: inline-block;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+	left: -100px !important;
+}
+.owl-carousel .owl-nav .owl-next {
+    right: -100px !important;
 }
