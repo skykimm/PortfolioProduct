@@ -3,7 +3,7 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<title>대한통운</title>
@@ -11,54 +11,56 @@
 </head>
 <body>
 	<div id="wrapper">
-		<header>
-			<div class="header_container">
-				<div class="header_left">
-					<img src="dahan.png" alt="" width="150" height="50">
-					<span>KO</span>
-					<span><i class="fas fa-globe"></i></span>
-				</div>
+		<header class="header">
+			<div class="header-wrap">
+				<div class="header_container">
+					<div class="header_left">
+						<img src="img/dahan.png" alt="" width="150" height="50">
+						<span>KO</span>
+						<span><i class="fas fa-globe"></i></span>
+					</div>
 
-				<div class="header_center">
-					<a href="#none">사업영역</a>
-					<a href="#none">TES</a>
-					<a href="#none">글로벌 네트워크</a>
-					<a href="#none">지속가능경영</a>
-				</div>
-				
-				<div class="header_right">
-					<a href="#none">조회/예약
-						<div class="header_right_box">
-							<div class="header_right_box2">
-								<span class="header_right_title" style="color: #fff;">택배조회</span>
-								<form>
-									<input type="text" placeholder="운송장 번호를 입력하세요">
-									<button><i class="fas fa-search"></i></button>
-								</form>
-							</div>
+					<div class="header_center">
+						<a href="#none">사업영역</a>
+						<a href="#none">TES</a>
+						<a href="#none">글로벌 네트워크</a>
+						<a href="#none">지속가능경영</a>
+					</div>
+					
+					<div class="header_right">
+						<a href="#none">조회/예약
+							<div class="header_right_box">
+								<div class="header_right_box2">
+									<span class="header_right_title" style="color: #fff;">택배조회</span>
+									<form>
+										<input type="text" placeholder="운송장 번호를 입력하세요">
+										<button><i class="fas fa-search"></i></button>
+									</form>
+								</div>
 
-							<div class="header_right_box3">
-								<span class="header_right_title">택배예약</span>
-							</div>
+								<div class="header_right_box3">
+									<span class="header_right_title">택배예약</span>
+								</div>
 
-							<div class="header_right_box3">
-								<span class="header_right_title">특송조회</span>
-							</div>
+								<div class="header_right_box3">
+									<span class="header_right_title">특송조회</span>
+								</div>
 
-							<div class="header_right_box3">
-								<span class="header_right_title">이사상담</span>
-							</div>
+								<div class="header_right_box3">
+									<span class="header_right_title">이사상담</span>
+								</div>
 
-							<div class="header_right_box3">
-								<span class="header_right_title">챗봇상담</span>
+								<div class="header_right_box3">
+									<span class="header_right_title">챗봇상담</span>
+								</div>
 							</div>
-						</div>
-					</a>
-					<span><i class="fas fa-search"></i></span>
-					<span><i class="fas fa-bars"></i></span>
+						</a>
+						<span><i class="fas fa-search"></i></span>
+						<span><i class="fas fa-bars"></i></span>
+					</div>
 				</div>
 			</div>
-			<div class="header">
+			<div class="header-text">
 				<div class="titleop">
 					<nav class="title">
 						<a href="#none">홈</a>
@@ -72,8 +74,7 @@
 					</nav>
 				</div>
 			</div>
-
-	 </header>
+		</header>
 
 		<div id="container">
 			<div class="conbox">
@@ -87,7 +88,7 @@
 				</div>
 				<div class="box3">
 					<p>QR코드스캔</p>
-					<img src="qr.jpg" alt="" width="100px" height="100px">
+					<img src="img/qr.jpg" alt="" width="100px" height="100px">
 				</div>
 
 				<div class="x">X</div>
@@ -236,7 +237,7 @@
 	<footer>
 		<div class="footlast">
 			<div class="icon">
-				<img src="https://img.hankyung.com/photo/201908/01.20220157.1.jpg" alt="" width="180px" height="80px">
+				<img src="img/dahan.png" alt="" width="180px" height="80px">
 			</div>
 
 			<div class="ceo">
@@ -245,12 +246,12 @@
 			</div>
 
 			<div class="logo">
-				<img src="logo_ccm.jpg" alt="" width="80px" height="60px">
+				<img src="img/logo_ccm.jpg" alt="" width="80px" height="60px">
 			</div>
 		</div>
 	</footer>
 
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 	<script src="prefixfree.min.js"></script>
 </body>
 </html>
