@@ -7,7 +7,7 @@
 	}
 }
 
-@media(max-width: 960px){
+@media(max-width: 1140px){
 	#wrapper{
 		max-width: 100%;
 	}
@@ -91,7 +91,6 @@
 		width: 100%;
 	}
 	.page7_box{
-		width: 32%;
 		margin: 0 5px;
 		text-align: center;
 	}
@@ -118,8 +117,11 @@
 		float: left;
 		display: block;
 	}
-	.footcenter a, .footcenter p{
+	.footcenter a{
 		display: inline-block;
+	}
+	.footcenter p{
+		display: block;
 	}
 	address{
 		display: block;
@@ -257,6 +259,7 @@
 		height: 1800px;
 	}
 	.page7_container{
+		display: block;
 		height: 100%;
 	}
 	.page7_box{

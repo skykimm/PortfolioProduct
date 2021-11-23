@@ -439,6 +439,8 @@ a:link, a:visited{
 	height: 580px;
 }
 .page7_container{
+	display: flex;
+    justify-content: center;
 	width: 1200px;
 	height: 100%;
 	margin: 0 auto;
