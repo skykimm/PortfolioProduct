@@ -100,17 +100,16 @@ header{
 
 .page3{
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	min-width: 1600px;
+	min-width: 1240px;
 	padding: 70px 0;
 	text-align: center;
 	background: #f0f0f0;
 }
 .page3_box{
 	flex: 1;
-}
-.page3_box1{
-	display: block;
+	width: 1240px;
 }
 .page3_box1 span{
 	font-size: 1.4em;
@@ -118,7 +117,8 @@ header{
 	letter-spacing: 1px;
 }
 .page3_box2{
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 }
 .page3_box2 img{
 	width: 300px;
