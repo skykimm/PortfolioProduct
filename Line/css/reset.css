@@ -1,6 +1,20 @@
 @charset "UTF-8";
 /*여백 초기화*/
 
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Roboto', sans-serif,"Arial";
+	font-size: 1em;
+	font-weight: 300;
+}
+
 body,
 div,
 ul,
