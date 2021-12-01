@@ -1,0 +1,44 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+        right: 25px;
+    }
+
+    to {
+        opacity: 1;
+        right: 15px;
+    }
+}
+
+
+@keyframes after {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        top: 100px;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes popupslide {
+    0% {
+        transform: translateY(0);
+    }   
+    100% {
+        transform: translateY(100%);
+    }
+   
+}

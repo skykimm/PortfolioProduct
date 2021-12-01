@@ -9,6 +9,23 @@ var btn3 = document.querySelector("#btn3");
 var btn4 = document.querySelector("#btn4");
 var mega = document.getElementsByClassName("drop");
 
+
+function deviceCheck(){
+	var filter = "win16|win32|win64|mac";
+	
+	if(navigator.platform){
+		if(0>filter.indexOf(navigator.platform.toLowerCase())){
+			//모바일일 경우
+			alert('모바일!');
+		}else{
+			//PC인경우
+			alert('pc로만 봐주세요');
+			
+		}
+	}
+}
+deviceCheck();
+
 function nextSlides(){
 	var currentslide = document.querySelector(".showing");
 
@@ -112,3 +129,4 @@ function scrolltop(){
 
 scrolltop();
 window.onscroll = function(){scrolltop(),scrollFunction()};
+
