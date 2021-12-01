@@ -10,21 +10,20 @@ var btn4 = document.querySelector("#btn4");
 var mega = document.getElementsByClassName("drop");
 
 
-function deviceCheck(){
-	var filter = "win16|win32|win64|mac";
-	
-	if(navigator.platform){
-		if(0>filter.indexOf(navigator.platform.toLowerCase())){
-			//모바일일 경우
-			alert('모바일!');
-		}else{
-			//PC인경우
-			alert('pc로만 봐주세요');
-			
-		}
+function isMobile(){
+	var UserAgent = navigator.userAgent;
+	if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+	{
+		return true;
+	}else{
+		return false;
 	}
 }
-deviceCheck();
+if(isMobile()){
+	alert("mobile 버전은 제공되지 않습니다.");
+}
+isMobile();
+
 
 function nextSlides(){
 	var currentslide = document.querySelector(".showing");
