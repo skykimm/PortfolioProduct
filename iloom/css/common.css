@@ -203,7 +203,6 @@ footer{
 	width: 1240px;
 	height: 200px;
 	margin: 0 auto;
-	text-align: center;
 	padding-top: 30px;
 	justify-content: space-between;
 }
@@ -211,7 +210,6 @@ footer{
 .footer_center{
 	width: 600px;
 }
-
 .footer_center ul{
 	display: inline-block;
 	width: 33.3%;
